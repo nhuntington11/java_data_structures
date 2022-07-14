@@ -30,7 +30,7 @@ public class BasicLinkedList {
         if (f != null)
             f.displayLink();
         else
-            System.out.print("Couldn't find link with key: " + f.iData);
+            System.out.print("Couldn't find link with key: " + 44);
         System.out.println("");
         
         Link l = theList.delete(44);
