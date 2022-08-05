@@ -35,7 +35,7 @@ public class ArraySh {
 
                 while (inner > h-1 && theArray[inner-h] > temp ) {
                     theArray[inner] = theArray[inner - h];
-                    inner -= 1;
+                    inner -= h;
                 }
                 theArray[inner] = temp;
             }
